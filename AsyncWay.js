@@ -8,7 +8,7 @@ var mm=R.readFile('./text1.txt','utf-8',function(err,result){ // here urf-8 is u
     }
     else console.log('Result 1 :',result);
 });
- console.log('first stoping point');
+ console.log('first first stoping point');
 var ss=R.writeFile('text2.txt',"God is good",function(err,result){
     if(err)
     console.log(err);
